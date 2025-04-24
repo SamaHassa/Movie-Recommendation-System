@@ -39,7 +39,7 @@ pip install -r requirements.txt
 scikit-learn for machine learning tools
 
 NLTK for text processing
-
+```
 📂 Dataset
 The system uses a movie metadata file movies.csv that includes:
 
@@ -52,6 +52,7 @@ Cast and crew information (credits)
 Popularity scores and vote metrics
 
 Poster and backdrop image paths
+
 🚀 How to Use
 Clone this repository.
 
@@ -62,6 +63,9 @@ Download the NLTK stopwords.
 Place your movies.csv file in the root directory.
 
 Open and run movie-recommendation-system.ipynb in Jupyter Notebook.
+
+
+
 
 
 
