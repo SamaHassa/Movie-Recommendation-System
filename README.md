@@ -64,7 +64,14 @@ Place your movies.csv file in the root directory.
 
 Open and run movie-recommendation-system.ipynb in Jupyter Notebook.
 
+💻 Run with Streamlit
+A Streamlit web interface for the movie recommendation system is already included in this project.
+To launch the app, simply run the following command:
 
+```bash
+streamlit run "c:\DEPI\Recommendation system\My Work\Recom_stream.py"
+```
+💡 This will open a new browser window or tab with your interactive movie recommendation interface.
 
 
 
