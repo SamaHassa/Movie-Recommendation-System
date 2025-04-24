@@ -37,7 +37,7 @@ Popularity scores and vote metrics
 
 Poster and backdrop image paths
 
-The dataset is available for download from [Google Drive Link]([https://drive.google.com/your-file-link](https://drive.google.com/file/d/12PZnr8IvolOlnPqD8Ti1eV2EeQcKRO-i/view?usp=sharing)).
+The dataset is available for download from [Google Drive Link] (https://drive.google.com/file/d/12PZnr8IvolOlnPqD8Ti1eV2EeQcKRO-i/view?usp=sharing)).
 
 ## 🛠️ Requirements
 
