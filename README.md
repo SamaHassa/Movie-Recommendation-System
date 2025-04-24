@@ -24,6 +24,20 @@ A content-based recommendation system built using TF-IDF vectorization and cosin
   - Recommends movies in a clean, user-friendly grid layout.
 
 ---
+### 📂 Dataset
+The system uses a movie metadata file movies.csv that includes:
+
+Movie titles and IDs
+
+Genres, overviews, and keywords
+
+Cast and crew information (credits)
+
+Popularity scores and vote metrics
+
+Poster and backdrop image paths
+
+The dataset is available for download from [Google Drive Link]([https://drive.google.com/your-file-link](https://drive.google.com/file/d/12PZnr8IvolOlnPqD8Ti1eV2EeQcKRO-i/view?usp=sharing)).
 
 ## 🛠️ Requirements
 
@@ -40,18 +54,6 @@ scikit-learn for machine learning tools
 
 NLTK for text processing
 ```
-📂 Dataset
-The system uses a movie metadata file movies.csv that includes:
-
-Movie titles and IDs
-
-Genres, overviews, and keywords
-
-Cast and crew information (credits)
-
-Popularity scores and vote metrics
-
-Poster and backdrop image paths
 
 🚀 How to Use
 Clone this repository.
