@@ -1,50 +1,47 @@
 # Movie-Recommendation-System
-Overview
-This repository contains a Jupyter Notebook implementation of a content-based movie recommendation system. The system uses movie metadata (genres, overviews, keywords, and credits) to suggest similar movies based on cosine similarity of TF-IDF vectorized features.
-Features
-Data preprocessing and cleaning of movie metadata
+# 🎬 Movie Recommendation System
 
-Text processing using NLTK's SnowballStemmer
+A content-based recommendation system built using TF-IDF vectorization and cosine similarity to suggest movies similar to a given title. It leverages movie metadata such as genres, overviews, keywords, and cast information to compute similarity between films.
 
-TF-IDF vectorization of movie tags (combined features)
+---
 
-Cosine similarity calculation between movies
+## 🔍 Features
 
-Interactive recommendation function that:
+- **Data Preprocessing:**
+  - Cleans and processes metadata including genres, keywords, cast, and overview.
+- **Text Processing:**
+  - Utilizes NLTK’s `SnowballStemmer` and standard text cleaning techniques.
+- **Feature Engineering:**
+  - Merges multiple text-based features into a single tag.
+  - Applies TF-IDF vectorization on combined tags.
+- **Similarity Computation:**
+  - Calculates cosine similarity between all movies based on their tag vectors.
+- **Interactive Recommendation Function:**
+  - Takes a movie title as input.
+  - Displays the selected movie’s poster.
+  - Returns a grid of similar movies with their posters and titles.
+- **Visualization:**
+  - Recommends movies in a clean, user-friendly grid layout.
 
-Takes a movie title as input
+---
 
-Displays the poster of the requested movie
+## 🛠️ Requirements
 
-Shows recommended movies with their posters
+- Python 3.x
+- Jupyter Notebook
 
-Visualization of recommendations in a grid layout
+### 📦 Required Python Packages
 
-Requirements
-Python 3.x
+```bash
+pip install -r requirements.txt
 
-Jupyter Notebook
 
-Required Python packages:
+scikit-learn for machine learning tools
 
-pandas
+NLTK for text processing
 
-numpy
-
-matplotlib
-
-seaborn
-
-nltk
-
-scikit-learn
-
-scikit-image
-
-pickle
-
-Dataset
-The system uses a movies dataset (movies.csv) containing:
+📂 Dataset
+The system uses a movie metadata file movies.csv that includes:
 
 Movie titles and IDs
 
@@ -52,58 +49,20 @@ Genres, overviews, and keywords
 
 Cast and crew information (credits)
 
-Popularity metrics and vote information
+Popularity scores and vote metrics
 
 Poster and backdrop image paths
+🚀 How to Use
+Clone this repository.
 
-How to Use
-Clone this repository
+Install the required packages listed above.
 
-Install required packages using pip install -r requirements.txt
+Download the NLTK stopwords.
 
-Download NLTK's SnowballStemmer data by running nltk.download('stopwords') in a Python shell
+Place your movies.csv file in the root directory.
 
-Place your movies.csv file in the project directory
+Open and run movie-recommendation-system.ipynb in Jupyter Notebook.
 
-Open and run the Jupyter Notebook movie-recommendation-system.ipynb
 
-Usage Example
-python
-# Get recommendations for a movie
-get_recommendations("Bullet Train")
-Output
-The function will display:
-
-The poster of the requested movie
-
-A grid of recommended movie posters with their titles
-
-Customization
-You can modify:
-
-The number of recommendations returned
-
-The weighting of different features (genres, keywords, etc.)
-
-The visualization style of the recommendations
-
-Future Improvements
-Implement collaborative filtering for hybrid recommendations
-
-Add user rating integration
-
-Create a web interface for the recommendation system
-
-Optimize for larger datasets
-
-License
-This project is open-source and available under the MIT License.
-
-Acknowledgments
-Dataset from TMDB (The Movie Database)
-
-scikit-learn for machine learning tools
-
-NLTK for text processing
 
 ![image](https://github.com/user-attachments/assets/2df91e46-0a89-4bb7-bbd8-00dccf5b6297)
